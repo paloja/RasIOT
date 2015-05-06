@@ -1,0 +1,6 @@
+CC=gcc
+CFLAGS= -I -Wall
+EXE_NAME=APP
+all: main.c some.c
+		$(CC) -O $(EXE_NAME) main.c some.o $(CFLAGS)
+		
